@@ -11,15 +11,15 @@ nav {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  padding: 30px 200px;
+  padding: 30px 0;
   flex-wrap: wrap;
 }
 
-.fa-bars {
+.bars {
   font-size: 40px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 20px;
   display: none;
 }
 
@@ -207,5 +207,17 @@ footer {
 @media all and (max-width: 576px) {
   .bars {
     display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .sinistra span {
+    display: none;
+  }
+
+  .square {
+    display: none;
   }
 }
